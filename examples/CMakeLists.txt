@@ -43,3 +43,8 @@ add_executable(multi_processes_example
   multi_processes_example.cc)
 target_link_libraries(multi_processes_example
   ${ROCKSDB_LIB})
+
+add_executable(basic_operations
+  basic_operations.cc)
+target_link_libraries(basic_operations
+  ${ROCKSDB_LIB})
